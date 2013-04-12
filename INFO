@@ -1,5 +1,6 @@
 title: Room Reservations
 contributors: hussain yodi316 bdsmith1
 repo: ece2524git@ece2524.ece.vt.edu:hussain/project.git
+type: tool
 description: Add and check room reservations. Probably will use a text file to stroe date, reservation holder, credit card, room number, and memo..
 
