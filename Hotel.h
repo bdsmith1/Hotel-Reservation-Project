@@ -1,8 +1,12 @@
-#ifndef
+#ifndef HOTEL_H
+#define HOTEL_H
 
 #include <iostream>
 #include <string>
 #include <iomanip>
+#include <string>
+#include <fstream>
+#include "date.h"
 
 
 class Hotel
@@ -11,9 +15,10 @@ public:
 	Hotel();
 	Hotel(int kingx, int queenx, int twinx);
 	void clear(); // Supposed to free up room after check-out
-	void List();
-	void List(string type);
-	bool reserve(string roomType, string name, string creditcard, Date start, Date end); // List of parameters.
+	void list();
+	void list(string type);
+	bool reserve(string roomType, string name, string creditcard, string start, string end); // List of parameters.
+	bool clear(string name);
 private:
 
 	int king;
@@ -23,5 +28,5 @@ private:
 
 	
 
-	}
+};
 #endif
