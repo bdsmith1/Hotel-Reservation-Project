@@ -1,0 +1,39 @@
+This project keeps a list of hotel reservations.
+
+Possible commands:
+
+Reserve:
+This will create a reservation for a room of a specified type for a specified start and end date
+
+-enter "reserve" followed by a space
+-enter the type of room you want (king, queen or twin), followed by a space
+-enter your last name only, followed by a space
+-enter your 16 digit credit card number
+-enter the start date of the reservation (MM/DD/YYYY), followed by a space
+-enter the end date of the reservation (MM/DD/YYYY)
+-press enter
+
+If everything is entered correctly, the program will output "Reservation completed".
+
+
+List:
+
+This will show a list of all reservations.
+
+-enter "list"
+
+A list of all reservations will be displayed with all their information
+
+
+Clear:
+
+This will clear a reservation made earlier
+
+-enter "clear" followed by a space
+-enter the last name on the reservation you wish to delete
+
+To ensure the reservation was deleted, call the list function and check that the reservation is no longer there. 
+
+
+Any invalid command will produce an output: "Command not found"
+
