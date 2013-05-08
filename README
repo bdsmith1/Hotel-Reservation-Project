@@ -1,14 +1,16 @@
 This project keeps a list of hotel reservations.
 
+command-line arguments: (number of king bedrooms) (number of queen bedrooms) (number of twin bedrooms)
+
 Possible commands:
 
 Reserve:
 This will create a reservation for a room of a specified type for a specified start and end date
 
--enter "reserve" followed by a space
+-enter "reserve" followed by return(enter)
 -enter the type of room you want (king, queen or twin), followed by a space
 -enter your last name only, followed by a space
--enter your 16 digit credit card number
+-enter your 16 digit credit card number followed by a space
 -enter the start date of the reservation (MM/DD/YYYY), followed by a space
 -enter the end date of the reservation (MM/DD/YYYY)
 -press enter
@@ -29,11 +31,10 @@ Clear:
 
 This will clear a reservation made earlier
 
--enter "clear" followed by a space
+-enter "clear" followed by a return(enter)
 -enter the last name on the reservation you wish to delete
 
 To ensure the reservation was deleted, call the list function and check that the reservation is no longer there. 
 
 
 Any invalid command will produce an output: "Command not found"
-
